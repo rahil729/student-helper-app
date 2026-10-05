@@ -5,7 +5,7 @@ Student Helper is an Android app built around the Sysslan IT Solutions internshi
 **App description:** Student Helper helps students manage academic life in one place: organize weekly classes, track upcoming exams, and keep dated task reminders. Your entries are stored locally on your device.
 
 ## Features
-- Home screen with the Level 1 project overview and clear navigation to working features
+- Clean, compact home screen with the Level 1 project identity and direct feature navigation
 - Live saved-item counts for classes, exams, and reminders
 - Timetable management with day and time entry
 - Exam schedule tracking with sorted dates
