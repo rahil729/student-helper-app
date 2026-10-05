@@ -59,6 +59,21 @@ This sideloadable APK is built with Android's debug signing key; use it for eval
 
 For local builds, the debug APK is generated at `app/build/outputs/apk/debug/app-debug.apk`.
 
+## LinkedIn project post
+
+I'm excited to share my **Student Helper App**, an Android project built around the Sysslan IT Solutions Android Development task brief.
+
+The app helps students organize their academic routine with:
+- A weekly timetable for classes
+- An exam schedule sorted by date
+- Dated reminders with completion and delete options
+
+Built with **Kotlin, Android SDK, XML layouts, RecyclerView, Intents, and local storage**. This project helped me practise Android UI design, navigation, data handling, and responsive layouts.
+
+Thank you to **Sysslan IT Solutions** for the project brief. Tag the Sysslan IT Solutions page when posting.
+
+#SysslanITSolutions #Sysslan #SysslanProjects #AndroidDevelopment #Kotlin #StudentHelper #MobileAppDevelopment
+
 ## Project structure
 - `app/src/main/java/com/example/studenthelper` – application logic
 - `app/src/main/res/layout` – XML layouts
