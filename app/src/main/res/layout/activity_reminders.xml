@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/soft_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/reminders_title"
+        android:textColor="@color/text_primary"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/reminderTitleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/reminder_hint"
+        android:inputType="textCapWords"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/reminderDateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:focusable="false"
+        android:hint="@string/date_hint"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/addReminderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/accent_orange"
+        android:text="@string/add_reminder" />
+
+    <TextView
+        android:id="@+id/noRemindersText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="@string/no_reminders"
+        android:textColor="@color/text_secondary"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/remindersRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
